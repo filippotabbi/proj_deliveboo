@@ -1,0 +1,297 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.my-button {
+    padding: 10px 25px;
+    height: fit-content;
+    width: fit-content;
+    color: $white;
+    transition: all 0.25s ease-out;
+    border-radius: 20px;
+    border: none;
+    &:hover {
+        color: #fff;
+        text-decoration: none;
+        transition: all 0.25s ease-out;
+        border: 0.5px solid $orange;
+    }
+}
+
+.my-button-red {
+    background: $red;
+    padding: 10px 25px;
+    height: fit-content;
+    width: fit-content;
+    color: $white;
+    transition: all 0.25s ease-out;
+    border-radius: 25px;
+    border: 0.5px solid $red;
+    font-size: 15px;
+    &:hover {
+        background: rgba($color: $red, $alpha: 0.8);
+        color: $white;
+        text-decoration: none;
+        transition: all 0.25s ease-out;
+        border: 0.5px solid $white;
+    }
+}
+
+.my-button-green {
+    background: $green;
+    padding: 10px 25px;
+    height: fit-content;
+    width: fit-content;
+    color: $white;
+    transition: all 0.25s ease-out;
+    border-radius: 25px;
+    border: 0.5px solid $green;
+    font-size: 15px;
+    &:hover {
+        background: rgba($color: $green, $alpha: 0.8);
+        color: $white;
+        text-decoration: none;
+        transition: all 0.25s ease-out;
+        border: 0.5px solid $white;
+    }
+}
+
+.my-button-blue {
+    background: $blue;
+    padding: 10px 25px;
+    height: fit-content;
+    width: fit-content;
+    color: $white;
+    transition: all 0.25s ease-out;
+    border-radius: 25px;
+    border: 0.5px solid $blue;
+    font-size: 15px;
+    &:hover {
+        background: rgba($color: $blue, $alpha: 0.8);
+        color: $white;
+        text-decoration: none;
+        transition: all 0.25s ease-out;
+        border: 0.5px solid $white;
+    }
+}
+
+.my-button-orange-user {
+    padding: 10px 25px;
+    height: fit-content;
+    width: fit-content;
+    color: $white;
+    background: $orange;
+    transition: all 0.25s ease-out;
+    border-radius: 25px;
+    border: 0.5px solid $orange;
+    font-size: 15px;
+    &:hover {
+        color: $orange;
+        background: rgba($color: $white, $alpha: 0.8);
+        text-decoration: none;
+        transition: all 0.25s ease-out;
+        border: 0.5px solid $orange;
+    }
+}
+
+.my-button-orange {
+    padding: 10px 25px;
+    height: fit-content;
+    width: fit-content;
+    color: $white;
+    background: $orange;
+    transition: all 0.25s ease-out;
+    border-radius: 25px;
+    border: 0.5px solid $orange;
+    font-size: 15px;
+    a {
+        color: $white;
+        &:hover {
+            color: $white;
+        }
+    }
+    &:hover {
+        color: $white;
+        background: rgba($color: $orange, $alpha: 0.8);
+        text-decoration: none;
+        transition: all 0.25s ease-out;
+        border: 0.5px solid $white;
+    }
+}
+
+.my-button-purple {
+    background: $lightpurple;
+    padding: 10px 25px;
+    height: fit-content;
+    width: fit-content;
+    color: $white;
+    transition: all 0.25s ease-out;
+    border-radius: 25px;
+    border: 0.5px solid $lightpurple;
+    font-size: 15px;
+    &:hover {
+        background: rgba($color: $lightpurple, $alpha: 0.8);
+        color: $white;
+        text-decoration: none;
+        transition: all 0.25s ease-out;
+        border: 0.5px solid $white;
+    }
+}
+
+.text-green {
+    color: $green;
+}
+
+.text-red {
+    color: $red;
+}
+
+.padding-top-54 {
+    padding-top: 54px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p {
+    color: $darkbrown;
+    margin-bottom: 0;
+}
+
+.btn-link-login {
+    color: #df9367;
+    &:hover {
+        color: #df9367;
+    }
+}
+
+input:checked {
+    background-color: #df9367;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+// .scale:hover {
+//   transform: scale(1.05);
+//   transition: all 0.25s ease-out;
+//   box-shadow: 0px 22px 24px 0px rgb(0 0 0 / 8%);
+//   cursor: pointer;
+//
+//   & > .card-personal-cover {
+//     .card-personal-description {
+//       display: flex;
+//     }
+//   }
+//
+// }
+.button-anchor {
+    z-index: 10;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border: 2px solid $darkwhite;
+    box-shadow: 0px 5px 24px 0px rgb(0 0 0 / 20%);
+    // position: relative;
+    padding: 10px 25px;
+    background: $orange;
+    transition: all 0.25s ease-out;
+    border-radius: 25px;
+    color: $white;
+    font-size: 15px;
+    a {
+        color: $white;
+        &:hover {
+            color: $white;
+        }
+    }
+    &:hover {
+        color: $white;
+        background: rgba($color: $orange, $alpha: 0.8);
+        text-decoration: none;
+        transition: all 0.25s ease-out;
+    }
+    .badge-cart {
+        background-color: $red;
+        height: 30px;
+        min-width: 30px;
+        position: absolute;
+        top: -12px;
+        right: 0;
+        padding: 5px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span {
+            color: $white;
+            font-weight: 600;
+        }
+    }
+}
+
+.no-button {
+    background: none;
+    border: none;
+    height: fit-content;
+    width: fit-content;
+}
+
+$breakpoint-mobile: 768px;
+@media (max-width: $breakpoint-mobile) {
+    .my-button-responsive-hide {
+        visibility: visible;
+        cursor: pointer;
+    }
+    .my-button-responsive-show {
+        display: none;
+    }
+}
+
+@media (min-width: $breakpoint-mobile) {
+    .my-button-responsive-hide {
+        display: none;
+    }
+    .my-button-responsive-show {
+        visibility: visible;
+        cursor: pointer;
+    }
+}
+
+$breakpoint-large: 1200px;
+@media (min-width: $breakpoint-large) {
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1350px;
+    }
+}
+
+.margin-y-50 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.padding-y-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.padding-y-40 {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.padding-y-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

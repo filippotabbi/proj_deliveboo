@@ -1,0 +1,132 @@
+.button {
+    cursor: pointer;
+    font-weight: 500;
+    left: 3px;
+    line-height: inherit;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    // border-radius: 3px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: inline-block;
+}
+
+.button--small {
+    padding: 10px 20px;
+    font-size: 0.875rem;
+}
+
+.button--green {
+    outline: none;
+    background-color: #64d18a;
+    border-color: #64d18a;
+    color: white;
+    transition: all 200ms ease;
+}
+
+.button--green:hover {
+    background-color: #8bdda8;
+    color: white;
+}
+
+.braintree-upper-container label {
+    width: 100%;
+}
+
+.checkout-card {
+    // background: $pink;
+    box-shadow: 0px 22px 24px 0px rgb(0 0 0 / 8%);
+    border-radius: 20px;
+    .page-top {
+        background: rgba($color: $pink, $alpha: 0.25);
+        padding: 20px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .form-personal {
+        padding: 20px;
+        width: 100%;
+    }
+    .checkout-card-inner {
+        padding: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        h3 {
+            font-weight: 500;
+        }
+        img {
+            width: 100%;
+        }
+        .confirmation {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: left;
+            span {
+                font-size: 2em;
+                font-weight: 700;
+            }
+            p {
+                font-size: 1.5em;
+                text-align: left;
+            }
+            .order-code {
+                height: 150px;
+                width: 150px;
+                background-position: center;
+                background-size: cover;
+                border-radius: 50%;
+            }
+        }
+        h4 {
+            display: flex;
+            align-items: center;
+            i {
+                margin-left: 10px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.checkout-card {
+    // background: $pink;
+    box-shadow: 0px 22px 24px 0px rgb(0 0 0 / 8%);
+    border-radius: 20px;
+    .page-top {
+        background: rgba($color: $pink, $alpha: 0.25);
+        padding: 20px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .form-personal {
+        padding: 20px;
+        width: 100%;
+    }
+    .checkout-card-inner {
+        padding: 20px;
+        h3 {
+            font-weight: 500;
+        }
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.checkout-card-inner-riepilogo {
+    padding: 20px;
+    h3 {
+        font-weight: 500;
+    }
+    img {
+        width: 100%;
+    }
+}
+
+.box-shadow-none {
+    box-shadow: none;
+}

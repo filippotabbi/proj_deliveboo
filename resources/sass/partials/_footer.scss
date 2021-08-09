@@ -1,0 +1,82 @@
+footer {
+    background-color: $navbar;
+
+    .container {
+        padding: 2em 0;
+    }
+
+    .footer-bottom {
+        padding: 1.5em 0;
+
+        .social-icons {
+            i {
+                margin: 0 5px;
+                font-size: 2em;
+                cursor: pointer;
+
+                &:hover {
+                    color: rgba($color: $white, $alpha: 0.5);
+                }
+            }
+        }
+
+        a {
+            font-size: 1.2em;
+
+            &:hover {
+                color: rgba($color: $white, $alpha: 0.5);
+            }
+        }
+    }
+}
+
+.color-orange {
+    color: $orange;
+}
+
+.color-red {
+    color: $red;
+}
+
+.color-darkwhite {
+    color: $darkwhite;
+}
+
+#form5Example2 {
+    outline: none;
+    cursor: pointer;
+}
+
+.links {
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        // justify-content: space-evenly;
+        margin-bottom: 15px;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: 50px;
+            margin-bottom: 20px;
+
+            li {
+                h4 {
+                    font-weight: 800;
+                    font-size: 22px;
+                }
+
+                a {
+                    font-size: 1.1em;
+
+                    &:hover {
+                        color: rgba($color: $white, $alpha: 0.5);
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+.form-group {
+    .label-personal {
+        color: $darkbrown;
+        font-size: 1.25em;
+        font-weight: 600;
+    }
+
+    input.input-personal {
+        border: 0.5px solid #df9367;
+        color: $darkbrown;
+        font-size: 1em;
+        font-weight: 500;
+    }
+
+    textarea {
+        border: 0.5px solid #df9367;
+    }
+
+    .form-check-input {
+        margin-left: 0;
+    }
+
+    .form-check-label {
+        margin-left: 1.25rem;
+    }
+}
+
+.pos-rel {
+    position: relative;
+}
+
+// .multiselect {
+//     width: 200px;
+// }
+
+// .selectBox {
+//     position: relative;
+// }
+
+// .selectBox select {
+//     width: 100%;
+//     border: 0.5px solid #df9367;
+//     padding: 10px 5px;
+//     border-radius: 0.25rem;
+// }
+
+// .overSelect {
+//     position: absolute;
+//     left: 0;
+//     right: 0;
+//     top: 0;
+//     bottom: 0;
+// }
+
+// #checkboxes {
+//     // display: none;
+//     border: 1px #dadada solid;
+// }
+
+// #checkboxes label:hover {
+//     background-color: #1e90ff;
+// }
+
+// .show-this {
+//     padding: 5px;
+//     background-color: rgba($color: #f8f8f8, $alpha: 1);
+//     box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.2);
+//     border-bottom-left-radius: 5px;
+//     border-bottom-right-radius: 5px;
+//     position: absolute;
+//     width: 100%;
+//     height: 150px;
+//     overflow: auto;
+//     user-select: none;
+//     z-index: 1;
+// }
+
+// .hide-this label {
+//     display: none;
+//     user-select: none;
+// }
+
+// .show-this label {
+//     text-transform: capitalize;
+//     display: block;
+//     user-select: none;
+// }
+
+// input[type=checkbox] {
+//     margin-right: 5px;
+// }

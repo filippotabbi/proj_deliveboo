@@ -1,0 +1,99 @@
+button.page-link {
+    display: inline-block;
+}
+
+button.page-link {
+    font-size: 20px;
+    color: $darkorange;
+    font-weight: 500;
+}
+
+.page-link:hover {
+    z-index: 2;
+    color: $darkorange;
+    text-decoration: none;
+    background-color: rgba($color: $orange, $alpha: 0.1);
+    border-color: rgba($color: $darkorange, $alpha: 0.5);
+}
+
+.page-link {
+    border-color: rgba($color: $orange, $alpha: 0.5);
+}
+
+.offset {
+    margin: 20px auto;
+}
+
+.justify-content-right {
+    justify-content: flex-end;
+}
+
+#orderhistory {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.table {
+    background-color: #FFF;
+    border: 1px solid $white;
+}
+
+.table th {
+    border: 1px solid $white;
+}
+
+.table td {
+    border: 1px solid $white;
+}
+
+.table thead th {
+    border: 1px solid $white;
+}
+
+th {
+    background-color: $orange;
+    color: $white;
+    border: 1px solid $white;
+}
+
+.th-sm {
+    border: 1px solid $white;
+}
+
+tr:nth-child(odd) {
+    background: rgba($color: $orange, $alpha: 0.2);
+}
+
+tr:nth-child(even) {
+    background: rgba($color: $orange, $alpha: 0.4);
+}
+
+.active {
+    background-color: $orange;
+}
+
+.active-pagination {
+    background: rgba($color: $orange, $alpha: 0.1);
+    color: $white;
+    text-decoration: none;
+}
+
+.page-link:focus {
+    box-shadow: 0px 5px 5px 0px rgba($color: $orange, $alpha: 0.1);
+}
+
+.page-item:first-child .page-link {
+    margin-left: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.height-table {
+    min-height: 500px;
+}

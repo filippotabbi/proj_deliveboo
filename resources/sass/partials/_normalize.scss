@@ -1,0 +1,38 @@
+* {
+    font-family: ‘Montserrat’, sans-serif;
+}
+
+.align-center {
+    text-align: center;
+}
+
+main {
+    margin-top: 71px;
+    // height: 100%;
+}
+
+.not-full-height {
+    height: auto;
+}
+
+.full-height {
+    height: calc(100vh - 358px - 71px);
+}
+
+.form-group {
+    input[type=text],
+    input[type=number],
+    input[type=email],
+    input[type=password],
+    textarea,
+    select {
+        border-radius: 25px;
+    }
+}
+
+$breakpoint-medium: 768px;
+@media (max-width: $breakpoint-medium) {
+    h1 {
+        font-size: 1em;
+    }
+}
